@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:11 AS build
 WORKDIR /java/src/github.com/com/test
 COPY . .
 
