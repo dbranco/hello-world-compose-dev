@@ -1,6 +1,6 @@
 version: "3.7"
 services:
-    helloWorld:
+    hello-world:
         build:
-            context: helloWorld
+            context: hello-world
             target: development
