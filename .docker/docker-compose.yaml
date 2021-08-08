@@ -4,3 +4,6 @@ services:
         build:
             context: hello-world
             target: development
+        ports:
+            - 8787:8787
+            - 8080:8080
